@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #f0f2f7;;
+    width: 100%;
+    height: auto;
+}
+
+header{
+    margin-top: 10px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.infoheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+.infoheader a{
+    text-decoration: none;
+    color: #3e76e6;
+}
+
+.signinbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#Signin{
+    width: 90px;
+    height: 35px;
+    background-color: #3e76e6;
+    border-color: #3e76e6;
+    border-radius: 50px;
+    color: white;
+    font-size: 17px;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signform{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #616263;
+    width: 100%;
+}
+
+.wrapsign{
+    background-color: white;
+    border: 1px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+.signheader{
+    margin-top: 10px;
+    text-align: center;
+}
+.signheader h1{
+    font-size: 24px;
+}
+.signheader p{
+    margin-top: 30px;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.signheader a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #3e76e6;
+    margin-top: 0px;
+}
+
+.forms{
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.forms div input{
+    width: 318px;
+    height: 40px ;
+}
+
+.forms div p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#Phone_p{
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+#CreateAcc{
+    width: 318px;
+    height: 41px;
+    margin-top: 30px;
+    font-size: 17px;
+    color: white;
+    background-color: #3e76e6;
+    border: #3e76e6;
+    border-radius: 5px;
+}
+.signfooter{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f0f2f7;
+    font-size: 10px;
+    text-align: center;
+}
+.signfooter a{
+    text-decoration: none;
+    color: #3e76e6;
+}
+.infoform{
+    font-size: 13px;
+    text-align: center;
+}
+
+.infoform a{
+    text-decoration: none;
+    color: #3e76e6;
+}
+
+
+footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #616263;
+    text-align: center;
+}
+
+footer ul li{
+    display: inline;
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #3e76e6;
+    margin-right: 5px;
+}
+footer p{
+    margin-top: 10px;
+}
